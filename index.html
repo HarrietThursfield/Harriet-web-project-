@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body style="background-image:url('images/background.JPG')"
->
+<body style ="background-image: url('images/background.jpg')">
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -16,15 +15,87 @@
     <h1>SULKE</h1>
   </em>
     <h2>art x fashion</h2>
-
-    <ul>
-      <li><a href="index.html"> HOME </a></li>
-      <li><a href="collection.html"> COLLECTION </a></li>
-      <li><a href="about.html"> ABOUT </a></li>
-      <li><a href="contact.html"> CONNECT </a></li>
-    </ul>
+  <div>
     <input type="email" placeholder="Your email">
     <input type="submit">
   </header>
+  <div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Collection</a>
+      <a href="#">Contact</a>
+    </div>
+    <span onclick="openNav()">explore</span>
+
+    <div id="main">
+      ...
+    </div>
+    <style>
+    body {
+        font-family: Helvetica, sans-serif;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav a:hover, .offcanvas a:focus{
+        color: white;
+    }
+
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px !important;
+        margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+    <body>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="tryit.asp-filename=tryhow_js_sidenav.html#">About</a>
+      <a href="tryit.asp-filename=tryhow_js_sidenav.html#">Services</a>
+      <a href="tryit.asp-filename=tryhow_js_sidenav.html#">Clients</a>
+      <a href="tryit.asp-filename=tryhow_js_sidenav.html#">Contact</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ open</span>
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
 
 </body>
