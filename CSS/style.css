@@ -1,5 +1,5 @@
 body{
-  font-family:helvetica, sans-serif, Liberation Sans;
+  font-family: Helvetica , sans-serif, Liberation Sans;
   font-size: 20px;
   line-height: 1.5;
   padding: 0;
@@ -15,7 +15,7 @@ body{
 }
 .button_1{
   height: 38;
-  background: #ADFF2F;
+  background: black;
   border: none;
   padding-left: 20px;
   padding-right: 20px;
@@ -58,8 +58,8 @@ header li{
 }
 
 header #branding {
-  float: left;
-  size: 15px;
+  float: center;
+  size: 10px;
 }
 
 header #branding h1{
@@ -67,7 +67,7 @@ header #branding h1{
 }
 
 header nav{
-  float: right;
+  float: center;
   margin-top: 3px;
 }
 
@@ -95,7 +95,7 @@ header a:hover {
 }
 #showcase h1{
   margin-top: 100px;
-  font-size: 200px;
+  font-size: 160px;
   margin-bottom: 10px;
 }
 #showcase p{
@@ -104,14 +104,15 @@ header a:hover {
 /* newsleter */
 #newsleter{
   padding: 15px;
-  color: white;
-  background: black;
+  color: black;
+  background: #F5F5F5;
   size: 10px;
 }
 
 #newsleter h1{
   float: left;
   size: 25px;
+  font-size: 20px;
 }
 #newsleter form{
   float: right;
