@@ -13,6 +13,14 @@ body{
   margin:auto;
   overflow: hidden;
 }
+.button_1{
+  height: 38;
+  background: #ADFF2F;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #F5F5F5;
+}
 
 header {
   background: black;
@@ -68,9 +76,57 @@ header a:hover {
 
 #showcase {
   min-height: 400px;
-  background: url('../images/background.JPG') no-repeat 0 -400px;
+  background: url('../images/header.JPG')no-repeat 0;
+  background-size: cover;
   text-align: center;
+  color: #F5F5F5;
+
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+}
+/* newsleter */
+#newsleter{
+  padding: 15px;
   color: white;
+  background: black;
+}
 
-
+#newsleter h1{
+  float: left;
+}
+#newsleter form{
+  float: right;
+  margin-top: 15px;
+}
+#newsleter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+/* Boxes */
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img{
+  width: 90px;
+  height: 90px;
+}
+#footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
 }

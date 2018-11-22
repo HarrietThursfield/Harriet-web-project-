@@ -1,83 +1,51 @@
 <!DOCTYPE html>
 <html>
-<body>
-<head>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
-  <script src="js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="collaction.html">Collection</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <span onclick="openNav()"</span>
-
-    <div id="main">
-    </div>
-  <style>
-  body {
-      font-family: Helvetica, sans-serif;
-  }
-
-  .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      transition: 0.5s;
-      padding-top: 60px;
-  }
-
-  .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: white;
-      display: block;
-      transition: 0.3s
-  }
-
-  .sidenav a:hover, .offcanvas a:focus{
-      color: white;
-  }
-
-  .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px !important;
-      margin-left: 50px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  </style>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>SULKE | About </title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet" type="text/css">
+      <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+      <script src="js/bootstrap.min.js"></script>
+  </head>
   <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class= "highlight">SULKE</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
 
-  <script>
-  function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-  }
+    <section id="newsleter">
+      <div class="container">
+        <h1>stay in contact</h1>
+        <form>
+          <input type ="email" placeholder="Enter Email">
+          <button type="submit" class="button_1"> subscribe</button>
+        </form>
+      </div>
+    </section>
 
-  function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-  }
-  </script>
+    <section id="main"></section>
+      <div class="container">
 
+      </div>
+    </section>
+
+    <footer>
+      <p>Ella C. Davies Designs, Copyright &copy; 2018</p>
+
+    </footer>
 
   </body>
+</html>
