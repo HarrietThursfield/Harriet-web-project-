@@ -8,76 +8,127 @@
   <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
   <script src="js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <body class="SULKE">
->
+  <h1>SULKE</h1>
 
-<body>
-  <ul>
-    <li><a href="index.html"> HOME </a></li>
-    <li><a href="collection.html"> COLLECTION </a></li>
-    <li><a href="about.html"> ABOUT </a></li>
-    <li><a href="contact.html"> CONNECT </a></li>
-  </ul>
-  		<!-- Wrapper -->
-  			<div id="wrapper" class="fade-in">
+  <body>
 
-  				<!-- Intro -->
-  					<div id="intro">
-  						<h1>
-  						SULKE</h1>
-  						<p>In the era of fast fashion, we are passionate about reusing clothes and finding ways of wearing environmentally benefical fashion. This project began 18 months ago when we couldn't find affordable and interesting items within a student budget. We source high quality second hand leather and demin jacets from local charity shops. Our hand painted designs are inspired by literally anything from politics to personal experiences</p>
-  <div>
-    <!-- Automatic Slideshow Images -->
-    <div class="mySlides SULKE-display-container SULKE-center">
-      <img src="images/fashionshow.jpg" style="width:100%">
-      <div class="SULKE-display-bottommiddle SULKE-container SULKE-text-white SULKE-padding-32 SULKE-hide-small">
-      </div>
-    </div>
-    <div class="mySlides SULKE-display-container SULKE-center">
-      <img src="images/background.jpg" style="width:100%">
-      <div class="SULKE-display-bottommiddle SULKE-container SULKE-text-white SULKE-padding-32 SULKE-hide-small">
-      </div>
-    </div>
-    <div class="mySlides SULKE-display-container SULKE-center">
-      <img src="images/IMG_6848.JPG" style="width:100%">
-      <div class="SUKE-display-bottommiddle SULKE-container SULKE-text-white SULKE-padding-32 SULKE-hide-small">
+  <style>
+  body {
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  div {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+  }
+
+  p {
+    color: rgba(255,255,255,1);
+    background: rgba(0,0,0,1);
+    padding: 10px;
+    line-height: 28px;
+    text-align: justified;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+  }
+</style>
+<div>
+  <img src="images/background.jpg" style="width:100%">
+<div class="about">
+    <p>ABOUT <br>
+      <small> In the era of fast fashion, we are passionate about reusing clothes and finding ways of wearing environmentally benefical fashion. This project began 18 months ago when we couldn't find affordable and interesting items within a student budget. We source high quality second hand leather and demin jacets from local charity shops. Our hand painted designs are inspired by literally anything from politics to personal experiences</small></p>
   </div>
-  <!--footer-->
-  <footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
+<div>
+  <img src="images/IMG_6848.JPG" style="width:100%">
+<div>
+  <img src="images/fashionshow.jpg" style="width:100%">
 
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+44 7540885879</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">elladaviesdesigns@ella.com</a></p>
-							</section>
-	</footer>
+</head>
+<body>
+<div class="form">
+
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Sign Up</a></li>
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="signup">
+          <h1>Sign Up for Free</h1>
+
+          <form action="/" method="post">
+
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+
+          <button type="submit" class="button button-block"/>Get Started</button>
+
+          </form>
+
+        </div>
+
+        <div id="login">
+          <h1>Welcome Back!</h1>
+
+          <form action="/" method="post">
+
+            <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+          <button class="button button-block"/>Log In</button>
+
+          </form>
+
+        </div>
+
+      </div><!-- tab-content -->
+
+</div> <!-- /form -->
 
 </body>
 </html>
