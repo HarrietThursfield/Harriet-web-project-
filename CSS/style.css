@@ -1,11 +1,13 @@
 body{
-  font-family: Helvetica , sans-serif, Liberation Sans;
+  font-family: sans-serif, serif ;
   font-size: 20px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4;
+  background-color: #eee;
+  height: auto;
 }
+
 
 /* Global */
 .container{
@@ -161,11 +163,15 @@ article#main-col{
 
 ul#contact li{
   list-style: none;
-  padding: 20px;
+  padding: 10px;
   border: grey, solid, 1px;
   margin-botton:5px;
-  background: white;
+  background: #F5F5F5;
 
+}
+.container img{
+  display: block;
+  width: 100%;
 }
 
 #footer{
@@ -173,7 +179,7 @@ ul#contact li{
   margin-top: 20px;
   color: white;
   background-color: black;
-  text-align: center;
+  text-align: right;
 }
 
 @media(max-width: 768px) {
@@ -188,4 +194,18 @@ ul#contact li{
   header{
     padding-bottom: 20px;
   }
+}
+
+.btn{
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  font-family: Helvetica, sans-serif;
+}
+.btn:hover {
+  background: #f4f4f4;
 }
