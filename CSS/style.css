@@ -21,6 +21,11 @@ body{
   padding-right: 20px;
   color: #F5F5F5;
 }
+.dark{
+  padding: 15px;
+  background: #f4f4f4;
+  color: white;
+}
 
 header {
   background: black;
@@ -123,10 +128,48 @@ header a:hover {
   width: 90px;
   height: 90px;
 }
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top; 10px
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea,{
+  width: 90%;
+  padding: 5px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+ul#contact li{
+  list-style: none;
+  padding: 20px;
+  border: grey, solid, 1px;
+  margin-botton:5px;
+  background: white;
+
+}
+
 #footer{
   padding: 20px;
   margin-top: 20px;
   color: white;
   background-color: black;
   text-align: center;
+}
+
+@media(max-width: 768px) {
+  header #branding,
+  header nav,
+  header nav li{
+    float: none;
+    text-align: center;
+    width: 100%
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
 }
