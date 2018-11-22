@@ -1,83 +1,133 @@
 <!DOCTYPE html>
-<html>
-<body>
-<head>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet" type="text/css">
-  <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
-  <script src="js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SULKE | Collection </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" type="image/icon" href="images/favicon.ico"/>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <div id="branding">
+            <h1><span class= "highlight">SULKE</span></h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <liclass="current"><a href="collection.html">Collection</a></li>
+              <li ><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-  <div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="collection.html">Collection</a>
-      <a href="contact.html">Contact</a>
-    </div>
-    <span onclick="openNav()"</span>
 
-    <div id="main">
-    </div>
-  <style>
+      <section id= "showcase">
+        <div class="container">
+          <h1>COLLECTION</h1>
+        </div>
+      </section>
+
+<style>
+  {
+      box-sizing: border-box;
+  }
+
   body {
-      font-family: Helvetica, sans-serif;
+      margin: 0;
+      font-family: Arial;
   }
 
-  .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      transition: 0.5s;
-      padding-top: 60px;
+  .header {
+      text-align: center;
+      padding: 32px;
   }
 
-  .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: white;
-      display: block;
-      transition: 0.3s
+  /* Create two equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
   }
 
-  .sidenav a:hover, .offcanvas a:focus{
-      color: white;
+  .column img {
+      margin-top: 12px;
   }
 
-  .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px !important;
-      margin-left: 50px;
-  }
-
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
   }
   </style>
   <body>
 
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+    <div class="row">
+      </div>
 
-  <script>
-  function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-  }
+      <div class="gallery">
+          <img src="./images/2.JPG" width=>
+        </a>
+      </div>
 
-  function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-  }
-  </script>
+      <div class="gallery">
+
+          <img src="./images/3.JPG" width="100%">
+        </a>
+      </div>
+
+      <div class="gallery">
+          <img src="./images/4.JPG" width="100%">
+        </a>
+      </div>
+
+      <div class="gallery">
+          <img src="./images/5.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/6.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/7.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/8.JPG" width="100%">
+      </div>
+      <div class="gallery">
+          <img src="./images/9.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/10.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/11.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/12.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/13.JPG" width="100%">
+        </a>
+      </div>
+      <div class="gallery">
+          <img src="./images/14.JPG" width="100%">
+        </a>
+      </div>
 
 
-  </body>
+
+</body>
+</html>
