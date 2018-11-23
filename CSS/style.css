@@ -8,8 +8,6 @@ body{
   height: auto;
 }
 
-
-/* Global */
 .container{
   width: 80%;
   margin:auto;
@@ -85,8 +83,6 @@ header a:hover {
   font-size: 25px;
 }
 
-/* Showcase */
-
 #showcase {
   min-height: 400px;
   background: url('../images/header.JPG')no-repeat 0;
@@ -126,7 +122,6 @@ header a:hover {
   height: 25px;
   width: 250px;
 }
-/* Boxes */
 #boxes {
   margin-top: 20px;
 }
